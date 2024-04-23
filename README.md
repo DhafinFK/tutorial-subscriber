@@ -8,3 +8,6 @@ string `amqp://guest:guest@localhost5672` specifies the connection details for a
 2. `guest`: following the colon after the first `guest`, the second guest is the password linked witht he username. the password is required to authenticate the connection
 3. `localhost`: indicates the hostname or ip address of the server.
 4. `5672`: is the port number where the server listens for incoming connection. it's the default port for amqp connections that do no tuse TLS/SSL
+
+The chart below shows that the simulation of the slow response creates a queue for the system
+![alt text](images/image4.png)
