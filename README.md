@@ -11,3 +11,6 @@ string `amqp://guest:guest@localhost5672` specifies the connection details for a
 
 The chart below shows that the simulation of the slow response creates a queue for the system
 ![alt text](images/image4.png)
+
+The chart shows the response of the load handled by the subscriber app handlling 5 consecutive cargo run from publisher
+![alt text](images/image5.png)
